@@ -1,4 +1,4 @@
-package org.example.Bronze2;
+package org.example.bronze2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
