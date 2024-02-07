@@ -1,7 +1,6 @@
 package org.example;
 
-import org.example.bronze1.Bronze3052;
-import org.example.silver3.Silver2606;
+import org.example.bronze1.Bronze9093;
 
 import java.io.IOException;
 
@@ -9,7 +8,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Bronze3052 a = new Bronze3052();
+        Bronze9093 a = new Bronze9093();
         a.test();
     }
 }
