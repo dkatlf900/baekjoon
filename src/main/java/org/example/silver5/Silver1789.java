@@ -1,4 +1,4 @@
-package org.example.silver4;
+package org.example.silver5;
 
 import java.io.BufferedReader;
 import java.io.IOException;

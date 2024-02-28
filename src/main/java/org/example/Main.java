@@ -1,10 +1,7 @@
 package org.example;
 
-import org.example.bronze1.Bronze1357;
-import org.example.silver4.Silver11047;
-import org.example.silver4.Silver1789;
-import org.example.silver4.Silver18110;
-import org.example.silver5.*;
+import org.example.silver5.Silver1789;
+import org.example.silver5.Silver5585;
 
 import java.io.IOException;
 
@@ -12,7 +9,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Silver1789 a = new Silver1789();
+        Silver5585 a = new Silver5585();
         a.test();
     }
 }
