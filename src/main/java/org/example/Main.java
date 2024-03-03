@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.silver4.*;
+import org.example.silver3.Silver1929;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Silver2164 a = new Silver2164();
+        Silver1929 a = new Silver1929();
         a.test();
     }
 }
