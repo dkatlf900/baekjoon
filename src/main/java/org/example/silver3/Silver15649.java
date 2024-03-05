@@ -73,7 +73,7 @@ public class Silver15649 {
                 list.add(i);
                 calc(list, temp, m, n, k+1);
                 temp[i-1] = false; // 백트래킹의 핵심 부분이다. 탐색 완료후 이전으로 롤백시키고
-                list.remove(k); // 백트래킹의 핵심 부분이다. 기존에 넣어둔 값도 제거하여 초기화.
+                list.remove(k); // 백트래킹의 핵심 부분이다. 기존에 넣어둔 값도 제거하여 초기화. TODO 이부분은 배열로 덮어쓰기를 하는게 더 좋네.
             }
         }
 
