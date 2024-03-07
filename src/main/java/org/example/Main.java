@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Silver15656 a = new Silver15656();
+        Silver2559 a = new Silver2559();
         a.test();
     }
 }
