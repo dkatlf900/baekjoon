@@ -3,8 +3,6 @@ package org.example.silver2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Silver11053 {
 
@@ -40,9 +38,9 @@ public class Silver11053 {
         // 역으로 for문 돌리는 사고방식을 배움.
         for(int i=1; i<n; i++) {
             for(int j=0; j<i; j++){
-                if(arr[j] < arr[i] && dp[i] < dp[j]+1) {
-//                    System.out.println("j: "+ arr[j] + "  ,,, i :"+ arr[i]);
-                    dp[i] = dp[j] + 1;
+                if(arr[j] < arr[i]) {
+                    System.out.println("j: "+ arr[j] + "  ,,, i :"+ arr[i]);
+                    dp[i] = Math.max(dp[j] + 1, dp[i]);
                 }
             }
         }
